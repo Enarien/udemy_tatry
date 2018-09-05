@@ -16,7 +16,7 @@ body {
 
 header {
 
-	width: 1004px;
+	width: 1000px;
 	margin: 0 auto;
 	align-self: center;
 
@@ -26,7 +26,7 @@ header {
 
 	background: linear-gradient(to bottom, #aeceef -11%, #ffffff 100%);
 	position: relative;
-	width: 944px;
+	width: 1000px;
 	height:113px;
 	margin-top: 15px;
 
@@ -124,7 +124,7 @@ section {
 
 #panorama {
 
-	width: 944px;
+	width: 1000px;
 	height: auto:
 	z-index: 2;
 
@@ -156,4 +156,16 @@ section {
 	font-size: 15px;
 	border: 1px solid white;
 	
+}
+/* article*/
+
+article.text {
+
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	background-color: blue;
+	align-self: center;
+	margin: 0 auto;
+
 }
