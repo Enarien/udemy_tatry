@@ -50,7 +50,6 @@ header {
 	top: 20px;
 	color: #13234c;
 	
-
 }
 
 
@@ -96,8 +95,6 @@ nav.menu {
 	font-size: 15px;
 	border: 1px solid white;
 
-	;
-
 }
 
 span.link {
@@ -113,7 +110,7 @@ span.link {
 	color: black;
 }
 
-/* MENU TOP FINISH */
+/* MENU TOP END */
 /*LOWER MENU */
 
 section {
@@ -122,14 +119,6 @@ section {
 	margin: 0 auto;
 	align-self: center;
 	position:relative;
-}
-
-#menu_bg {
-
-	width: 1000px;
-	height: 37px;
-	background-color: #387287;
-
 }
 
 #panorama {
@@ -158,12 +147,11 @@ section {
 
 #lower_menu li a {
 
-	background-color: #387287;
 	height: 31px;
 	display: inline-block;
 	float: left;
 	padding: 0px 15px;
-	color: #ffffff;
+	color: black;
 	font-size: 15px;
 	margin-top: 5px;
 
@@ -171,8 +159,7 @@ section {
 
 #lower_menu li a:hover {
 
-	background-color: #a8d9ea;
-	color: black;
+	color: blue;
 
 }
 
@@ -182,22 +169,28 @@ a.link3 {
 
 }
 
-span.link2 {
-
-	margin-top: 20px;
-
-}
-
 li span.break {
 
 	display: inline-block;
 	margin: 5px 10px 0px 10px;
 	color: #ffffff;
 
+}
 
+/*LOWER MENU */
+/* DROPDOWN LIST */
 
+li.dropdown_list {
+
+	display: none;
+}
+
+#lowermenu li:hover .dropdown_list {
+
+	display: block;
 
 }
+
 	
 /* article*/
 
