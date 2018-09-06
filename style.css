@@ -74,7 +74,7 @@ tr.author {
 nav.menu {
 
 	position:absolute;
-	bottom: -3px;
+	bottom: 0px;
 	left:120px;
 
 }
@@ -95,6 +95,7 @@ nav.menu {
 	color: #ffffff;
 	font-size: 15px;
 	border: 1px solid white;
+
 	;
 
 }
@@ -103,6 +104,7 @@ span.link {
 
 	display: inline-block;
 	margin-top: 7px;
+
 }
 
 #main_menu li a:hover {
@@ -116,10 +118,18 @@ span.link {
 
 section {
 
-	width: 1004px;
+	width: 1000px;
 	margin: 0 auto;
 	align-self: center;
 	position:relative;
+}
+
+#menu_bg {
+
+	width: 1000px;
+	height: 37px;
+	background-color: #387287;
+
 }
 
 #panorama {
@@ -135,28 +145,60 @@ section {
 	z-index: 1;
 	position: absolute;
 	top: 0px;
-	left: 140px;
+	left: 25px;
 }
 
 #lower_menu li {
 
 	list-style-type: none;
 	float: left;
+	border: 0px;
 
 }
 
 #lower_menu li a {
 
-	background-color: #072f59;
+	background-color: #387287;
 	height: 31px;
 	display: inline-block;
 	float: left;
 	padding: 0px 15px;
 	color: #ffffff;
 	font-size: 15px;
-	border: 1px solid white;
-	
+	margin-top: 5px;
+
 }
+
+#lower_menu li a:hover {
+
+	background-color: #a8d9ea;
+	color: black;
+
+}
+
+a.link3 {
+
+	text-decoration: none;
+
+}
+
+span.link2 {
+
+	margin-top: 20px;
+
+}
+
+li span.break {
+
+	display: inline-block;
+	margin: 5px 10px 0px 10px;
+	color: #ffffff;
+
+
+
+
+}
+	
 /* article*/
 
 article.text {
@@ -164,7 +206,7 @@ article.text {
 	width: 1000px;
 	height: 600px;
 	position: relative;
-	background-color: blue;
+	background-color: #387287;
 	align-self: center;
 	margin: 0 auto;
 
